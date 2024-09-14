@@ -5,7 +5,7 @@ import React from "react";
 import "./globals.css";
 import GithubProfile from "@/components/image";
 import Typing from "@/components/TypeWriter";
-import { motion, useAnimation, useInView } from "framer-motion";
+import { motion} from "framer-motion";
 
 const Page = () => {
   return (
@@ -14,7 +14,7 @@ const Page = () => {
             opacity: 0,
             y: 50,
           }}
-          whileInView={{
+          animate={{
             opacity: 1,
             y: 0,
             transition: {
