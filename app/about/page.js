@@ -8,7 +8,7 @@ import AboutCard from "./components/AboutCard";
 
 const About = () => {
   return (
-    <div className="mx-28 hide-scrollbar">
+    <div className="mx-28">
       <motion.div
         initial={{
           opacity: 0,

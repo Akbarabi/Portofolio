@@ -14,7 +14,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={montserrat.className}>
         <Navbar />
-        <main>{children}</main>
+        <main className="hide-scrollbar">{children}</main>
         <Footer />
         <Particle />
       </body>
