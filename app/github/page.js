@@ -1,8 +1,11 @@
 import React from 'react'
+import GithubProfile from './components/GithubProfile'
 
 const Github = () => {
   return (
-    <div>Github</div>
+    <div className='h-screen flex justify-center items-center text-white'>
+      <GithubProfile />
+    </div>
   )
 }
 

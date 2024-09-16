@@ -1,5 +1,6 @@
 import Link from "next/link";
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
+import '@/app/globals.css'
 
 const Navbar = () => {
   /**
@@ -29,16 +30,16 @@ const Navbar = () => {
         <h1 className="text-3xl font-bold">A.Abi</h1>
       </Link>
       <ul className="flex gap-4">
-        <li>
+        <li className="navbar-text">
           <Link href="/">Home</Link>
         </li>
-        <li>
+        <li className="navbar-text">
           <Link href="/about">About</Link>
         </li>
-        <li>
+        <li className="navbar-text">
           <Link href="/github">Github</Link>
         </li>
-        <li>
+        <li className="navbar-text">
           <Link href="/contact">Contact</Link>
         </li>
       </ul>

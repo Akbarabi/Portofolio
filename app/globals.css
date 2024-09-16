@@ -55,11 +55,9 @@
   background-color: #800080;
 }
 
-.size {
-  width: 50dvw;
-}
-
 .navbar {
+  display: flex;
+  justify-content: space-between;
   background: rgba(128, 0, 128, 0.21);
   backdrop-filter: blur(2px);
   -webkit-backdrop-filter: blur(2px);
@@ -72,6 +70,16 @@
   -webkit-backdrop-filter: blur(20px);
 }
 
+.navbar-text:hover {
+  transform: scale(1.1);
+  font-weight: 500;
+  color: aqua;
+}
+
+.hamburger-menu {
+  display: none;
+}
+
 ::-webkit-scrollbar {
   display: none;
 }
@@ -81,4 +89,21 @@
   overflow-x: hidden;
   -ms-overflow-style: none;
   scrollbar-width: none;
+}
+
+@media screen and (max-width: 768px) {
+  .home-sm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 20px;
+    margin-top: 100px;
+  }
+  .image-sm {
+    right: 0;
+    top: 0;
+    margin-top: 20px;
+  }
 }

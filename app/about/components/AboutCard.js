@@ -1,7 +1,6 @@
 import React from "react";
 import Image from "next/image";
 
-import Card from "react-bootstrap/Card";
 import { ImPointRight } from "react-icons/im";
 
 const AboutCard = () => {
@@ -42,9 +41,10 @@ const AboutCard = () => {
           <Image
             src={"/about.png"}
             alt="profile"
-            width={500}
-            height={500}
-            className="-right-20 -top-14 md:w-1/2 md:ml-4 flex relative"
+            width={600}
+            height={600}
+            className="-right-36 -top-14 image flex relative"
+            priority
           />
       </div>
     </div>

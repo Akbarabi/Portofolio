@@ -2,33 +2,31 @@
 
 import React from "react";
 
-import "./globals.css";
-import GithubProfile from "@/components/image";
 import Typing from "@/components/TypeWriter";
-import { motion} from "framer-motion";
+import { motion } from "framer-motion";
+import Image from "next/image";
 
 const Page = () => {
   return (
     <motion.div
-          initial={{
-            opacity: 0,
-            y: 50,
-          }}
-          animate={{
-            opacity: 1,
-            y: 0,
-            transition: {
-              delay: 0.2,
-              duration: 0.5,
-            },
-          }}
-          viewport={{
-            once: false,
-            amount: 1,
-          }}
-        >
-          <div className="flex h-[92vh] mx-28">
-        <div className="flex items-center">
+      initial={{
+        opacity: 0,
+        y: 50,
+      }}
+      animate={{
+        opacity: 1,
+        y: 0,
+        transition: {
+          delay: 0.2,
+          duration: 0.5,
+        },
+      }}
+      viewport={{
+        once: false,
+        amount: 1,
+      }}
+    >
+        <div className="items-center flex h-[92vh] home-sm">
           <div className="flex-col justify-start text-white mt-10">
             <h1 className="text-4xl font-bold">
               Hi, There! <span className="waving-hand">👋</span>
@@ -41,12 +39,16 @@ const Page = () => {
             </div>
           </div>
 
-          <div className="absolute right-28">
-            <GithubProfile />
-          </div>
+          <Image
+            src="home-main.svg"
+            alt="Avatar"
+            width={500}
+            height={500}
+            className="-right-28 top-14 relative object-contain mx-5 image-sm"
+            priority
+          />
         </div>
-      </div>
-        </motion.div>
+    </motion.div>
   );
 };
 
