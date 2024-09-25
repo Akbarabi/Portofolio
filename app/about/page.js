@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import { motion, useAnimation, useInView } from "framer-motion";
+import { motion } from "framer-motion";
 
 import Techstack from "@/components/TechStack";
 import AboutCard from "./components/AboutCard";

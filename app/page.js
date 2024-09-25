@@ -26,7 +26,7 @@ const Page = () => {
         amount: 1,
       }}
     >
-        <div className="items-center flex h-[92vh] home-sm">
+        <div className="items-center flex h-[92vh] home-sm mx-28">
           <div className="flex-col justify-start text-white mt-10">
             <h1 className="text-4xl font-bold">
               Hi, There! <span className="waving-hand">👋</span>
@@ -38,7 +38,6 @@ const Page = () => {
               <Typing />
             </div>
           </div>
-
           <Image
             src="home-main.svg"
             alt="Avatar"

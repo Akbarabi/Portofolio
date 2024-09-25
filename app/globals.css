@@ -55,6 +55,19 @@
   background-color: #800080;
 }
 
+.github-box {
+  background: rgba(128, 0, 128, 0.62);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(8.8px);
+-webkit-backdrop-filter: blur(8.8px);
+border: 1px solid rgba(128, 0, 128, 0.3);
+}
+
+.github-box:hover {
+  transform: scale(1.05);  
+}
+
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -94,12 +107,14 @@
 @media screen and (max-width: 768px) {
   .home-sm {
     display: flex;
+    flex: 1;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding-top: 20px;
+    position: relative;
     margin-top: 100px;
+    height: 90vh;
   }
   .image-sm {
     right: 0;
