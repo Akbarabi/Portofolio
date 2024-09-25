@@ -19,6 +19,7 @@ export default function RootLayout({ children }) {
         <main className="hide-scrollbar">{children}</main>
         <Footer />
         <Particle />
+        <SpeedInsights />
       </body>
     </html>
   );
