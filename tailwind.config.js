@@ -1,13 +1,5 @@
 /** @type {import('tailwindcss').Config} */
-module.exports = {
-  mode: 'production',
-  optimization: {
-    splitChunks: {
-      chunks: 'all',
-    },
-    minimize: true,
-    minimizer: [new TerserPlugin()],
-  },
+module.exports = {z
   content: [
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
@@ -22,7 +14,5 @@ module.exports = {
       },
     },
   },
-  plugins: [
-    new CleanWebpackPlugin(),
-  ],
+  plugins: [],
 };
