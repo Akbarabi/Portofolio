@@ -1,14 +1,8 @@
 import Link from "next/link";
-import React, { useEffect, useState } from "react";
+import React, { useEffect } from "react";
 import '@/app/globals.css'
 
 const Navbar = () => {
-  /**
-   * Ketika terdeteksi scroll pada window,
-   * pendefinisan navbar berguna untuk menambahkan kelas css ke
-   * maka navbar akan ditambahkan kelas css "scrolled"
-   * jika tidak, kelas css "scrolled" akan di hapus
-   */
   useEffect(() => {
     const navbar = document.querySelector(".navbar");
     const handleScroll = () => {
@@ -18,7 +12,8 @@ const Navbar = () => {
         navbar.classList.remove("scrolled");
       }
     };
-    window.addEventListener("scroll", handleScroll);
+
+    window.addEventListener("scroll", handleScroll, { passive: true });
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };

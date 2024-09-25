@@ -1,31 +1,38 @@
 "use client";
 
 import React from "react";
-
-import Typing from "@/components/TypeWriter";
+import dynamic from "next/dynamic";
 import { motion } from "framer-motion";
 import Image from "next/image";
 
+// Dynamically import Typing component
+const Typing = dynamic(() => import("@/components/TypeWriter"), {
+  ssr: false,
+});
+
 const Page = () => {
   return (
-    <motion.div
-      initial={{
-        opacity: 0,
-        y: 50,
-      }}
-      animate={{
-        opacity: 1,
-        y: 0,
-        transition: {
-          delay: 0.2,
-          duration: 0.5,
-        },
-      }}
-      viewport={{
-        once: false,
-        amount: 1,
-      }}
-    >
+    <>
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true" />
+      <motion.div
+        initial={{
+          opacity: 0,
+          y: 50,
+        }}
+        animate={{
+          opacity: 1,
+          y: 0,
+          transition: {
+            delay: 0.2,
+            duration: 0.5,
+          },
+        }}
+        viewport={{
+          once: false,
+          amount: 1,
+        }}
+      >
         <div className="items-center flex h-[92vh] home-sm mx-28">
           <div className="flex-col justify-start text-white mt-10">
             <h1 className="text-4xl font-bold">
@@ -47,7 +54,8 @@ const Page = () => {
             priority
           />
         </div>
-    </motion.div>
+      </motion.div>
+    </>
   );
 };
 
