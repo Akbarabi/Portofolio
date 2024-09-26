@@ -49,9 +49,9 @@ To view this portfolio locally on your machine:
 ## 📈 What’s Next?
 I’m constantly updating and improving this portfolio. Here’s what’s on the roadmap:
 
-Visual Enhancements: Upgrading the UI with modern design trends and tools like TailwindCSS.
-Interactive Elements: Adding engaging animations and transitions to create a more immersive experience.
-Responsive: Further optimizations to ensure flawless performance across all devices and screen sizes.
+- **Visual Enhancements:** Upgrading the UI with modern design trends and tools like TailwindCSS.
+- **Interactive Elements:** Adding engaging animations and transitions to create a more immersive experience.
+- **Responsive:** Further optimizations to ensure flawless performance across all devices and screen sizes.
 
 ## 📊 Lighthouse Score
 Here’s the current Lighthouse score for the portfolio:
