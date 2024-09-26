@@ -69,7 +69,7 @@ Feel free to explore the portfolio and reach out if you want to collaborate, dis
 
 - [LinkedIn](https://www.linkedin.com/in/akbar-abi-4724a92a9/)
 - [Github](https://github.com/Akbarabi)
-- [Email](muhammadakbar.abisantoso07@gmail.com)
+- [Email](mailto:muhammadakbar.abisantoso07@gmail.com)
 
 ## 🤝 Contributions
 If you find areas that can be improved or have ideas for new features, feel free to contribute! Fork the repository, make changes, and submit a pull request. I welcome any suggestions and enhancements.
