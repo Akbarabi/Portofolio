@@ -23,9 +23,7 @@ This portfolio includes:
 The portfolio is built using the following technologies:
 
 - **Frontend**: HTML, CSS, JavaScript, React
-- **Backend**: Node.js, Express
 - **Version Control**: Git, GitHub
-- **Database**: PostgreSQL, Prisma ORM
 
 ---
 
