@@ -1,72 +1,77 @@
-💼 Akbarabi's Web Developer Portfolio
-Welcome to my portfolio repository! This space showcases my journey as a web developer, featuring projects that highlight my technical skills, creativity, and dedication to crafting user-centric web applications.
+# 💼 Akbarabi's Developer Portfolio
 
-🧑‍💻 About Me
-Hi, I’m Muhammad Akbar Abi Santoso, a passionate web developer currently studying at SMK Telkom Malang. I have a keen interest in both frontend and backend development, and I thrive on building digital experiences that solve real-world problems. My portfolio is a reflection of my growth as a developer as I explore new technologies, tools, and best practices to elevate my work.
+Welcome to the repository of my personal developer portfolio! This project highlights my skills, creativity, and ongoing journey in web development. It's a platform where I showcase my featured projects and demonstrate my expertise in frontend and backend development.
 
-🌟 Key Projects
-Here are some of the standout projects from my portfolio:
+## 🧑‍💻 About Me
 
-1. [Project Name]
-Description: Briefly describe what the project does and its purpose.
-Tech Stack: [JavaScript, React, Node.js, etc.]
-Features:
-Responsive UI built with React.
-Integrated authentication system.
-Seamless data storage with PostgreSQL.
-Live Demo / GitHub Link
-2. [Project Name]
-Description: Explain how this project enhances user experience or solves a specific challenge.
-Tech Stack: [Next.js, PostgreSQL, Prisma ORM, etc.]
-Features:
-Server-Side Rendering (SSR) with Next.js for performance optimization.
-Advanced API integrations and database management using Prisma ORM.
-Live Demo / GitHub Link
-3. [Project Name]
-Description: A quick overview of the project’s purpose and core functionality.
-Tech Stack: [Express, JavaScript, etc.]
-Features:
-Full RESTful API built with Express.
-Data validation, error handling, and cloud deployment.
-Live Demo / GitHub Link
-Explore more projects in the repository and see the code behind the concepts!
+Hi, I’m **Muhammad Akbar Abi Santoso**, a passionate web developer currently studying at **SMK Telkom Malang**. My focus is on both frontend and backend development, with a love for solving real-world problems through code. This portfolio is a reflection of my growth as I learn new technologies and continually improve my skill set.
 
-🛠️ Tech Stack
-Here’s an overview of the technologies and tools I frequently use:
+---
 
-Frontend: HTML, CSS, JavaScript, React, Next.js
-Backend: Node.js, Express, REST APIs
-Databases: PostgreSQL, Prisma ORM
-Version Control: Git, GitHub
-DevOps: Docker, Vercel, Heroku
-📈 What I’m Learning
-I believe that learning is a never-ending journey. I’m currently focused on expanding my skills in:
+## 🌟 Features
 
-Next.js for scalable web applications with better performance through SSR.
-PostgreSQL & Prisma ORM for advanced database management.
-TypeScript for strongly typed JavaScript applications.
-Docker for containerization and efficient development workflows.
-TailwindCSS for faster and cleaner UI development.
-🚀 What’s Next?
-I’m always working on new ideas and improving my current projects. Here are a few upcoming projects I’m excited about:
+This portfolio includes:
 
-E-Commerce Website: A fully-featured online store with product catalogs, user authentication, and integrated payment gateways.
-Real-time Chat Application: A messaging app built using WebSocket and Node.js for real-time communication.
-Portfolio 2.0: An upgrade to this portfolio with a more dynamic, interactive design using TailwindCSS and Next.js.
-📖 How to Use This Repository
-Clone the repository to your local machine:
-bash
-Copy code
-git clone https://github.com/Akbarabi/Portofolio.git
-Navigate into the project folder and follow the setup instructions provided in each project’s README to run it locally.
-🌍 Connect with Me
-I’m always eager to connect with fellow developers, collaborate on exciting projects, or learn from others. Feel free to reach out through any of the platforms below:
+- **Project Showcase**: A collection of my key projects with descriptions and links to the live demos and repositories.
+- **Responsive Design**: Built with mobile-first principles to ensure it looks great on all devices.
+- **Clean UI/UX**: Simple yet effective user interface for easy navigation and exploration of my work.
 
-LinkedIn
-GitHub
-Email
-🤝 Contributing
-Interested in contributing to my projects? Fork the repository, make your improvements, and submit a pull request! I welcome suggestions, enhancements, and creative ideas.
+---
 
-Thank you for visiting my portfolio! I hope it serves as an inspiration, and I’m looking forward to any feedback or potential collaborations. Let’s build something great together!
+## 🛠️ Tech Stack
 
+The portfolio is built using the following technologies:
+
+- **Frontend**: HTML, CSS, JavaScript, React
+- **Backend**: Node.js, Express
+- **Version Control**: Git, GitHub
+- **Database**: PostgreSQL, Prisma ORM
+
+---
+
+## 🚀 How to Use
+
+To view this portfolio locally on your machine:
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Akbarabi/Portofolio.git
+2. Navigate to the project directory:
+   ```bash
+   cd Portofolio
+3. Install the necessary dependencies:
+   ```bash
+   npm install
+4. Run the project locally:
+  ```bash
+  npm start
+  ```
+  The portfolio should now be running locally, and you can view it in your browser at http://localhost:3000.
+
+## 📈 What’s Next?
+I’m constantly updating and improving this portfolio. Here’s what’s on the roadmap:
+
+Visual Enhancements: Upgrading the UI with modern design trends and tools like TailwindCSS.
+Interactive Elements: Adding engaging animations and transitions to create a more immersive experience.
+Responsive: Further optimizations to ensure flawless performance across all devices and screen sizes.
+
+## 📊 Lighthouse Score
+Here’s the current Lighthouse score for the portfolio:
+
+- **Performance: 78**
+- **Accessibility: 85**
+- **Best Practices: 93**
+- **SEO: 92**
+These scores highlight the portfolio's high standards in performance, accessibility, and overall web practices. Continuous improvements will focus on maintaining and enhancing these scores.
+
+## 🌍 Connect with Me
+Feel free to explore the portfolio and reach out if you want to collaborate, discuss a project, or just connect:
+
+- [LinkedIn](https://www.linkedin.com/in/akbar-abi-4724a92a9/)
+- [Github](https://github.com/Akbarabi)
+- [Email](muhammadakbar.abisantoso07@gmail.com)
+
+## 🤝 Contributions
+If you find areas that can be improved or have ideas for new features, feel free to contribute! Fork the repository, make changes, and submit a pull request. I welcome any suggestions and enhancements.
+
+Thank you for visiting my portfolio repository! I hope it gives you a good overview of my skills and projects. Feedback is always welcome!
