@@ -60,6 +60,7 @@ Here’s the current Lighthouse score for the portfolio:
 - **Accessibility: 85**
 - **Best Practices: 93**
 - **SEO: 92**
+
 These scores highlight the portfolio's high standards in performance, accessibility, and overall web practices. Continuous improvements will focus on maintaining and enhancing these scores.
 
 ## 🌍 Connect with Me
