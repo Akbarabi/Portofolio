@@ -57,15 +57,14 @@
 
 .github-box {
   background: rgba(128, 0, 128, 0.62);
-border-radius: 16px;
-box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-backdrop-filter: blur(8.8px);
--webkit-backdrop-filter: blur(8.8px);
-border: 1px solid rgba(128, 0, 128, 0.3);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(128, 0, 128, 0.3);
+  transition: transform 0.3s ease-in-out;
 }
 
 .github-box:hover {
-  transform: scale(1.05);  
+  transform: scale(1.05);
 }
 
 .navbar {

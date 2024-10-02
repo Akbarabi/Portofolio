@@ -38,13 +38,13 @@ const Repos = React.memo(() => {
     () =>
       repos.map((repo) => (
         <Col key={repo.id} className="github-box p-4">
-          <h2 className="text-xl font-bold mb-2">{repo.name}</h2>
-          <p className="text-base mb-4">{repo.description || "No description"}</p>
+          <h2 className="text-lg sm:text-xl font-bold mb-2">{repo.name}</h2>
+          <p className="text-sm sm:text-base mb-4">{repo.description || "No description"}</p>
           <a
             href={repo.html_url}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-block bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-md transition-all"
+            className="inline-block bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-md transition-all text-sm sm:text-base"
           >
             Learn More
           </a>
@@ -64,7 +64,7 @@ const Repos = React.memo(() => {
   }
 
   return (
-    <Row className="grid grid-cols-3 text-white gap-5 m-10">
+    <Row className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 text-white gap-5 m-4 sm:m-6 md:m-8 lg:m-10">
       {memoizedRepos}
     </Row>
   );

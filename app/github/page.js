@@ -7,7 +7,7 @@ import Repos from "./components/Repos";
 
 const Github = () => {
   return (
-    <div className="mx-28">
+    <div className="mx-4 sm:mx-8 md:mx-16 lg:mx-28">
       <motion.div
         initial={{
           opacity: 0,
@@ -49,7 +49,7 @@ const Github = () => {
       >
         <Repos />
       </motion.div>
-    </div>
+    </ div>
   );
 };
 
