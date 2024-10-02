@@ -1,4 +1,4 @@
-[Preview](./public/assets/Preview.png)
+[Preview]([./public/assets/Preview.png](https://github.com/Akbarabi/Portofolio/blob/main/public/assets/Preview.png))
 [Live Demo](https://abi-portofolio.vercel.app/)
 
 ---
