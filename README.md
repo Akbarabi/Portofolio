@@ -1,4 +1,4 @@
-(./assets/Preview.png)
+[Previe](./assets/Preview.png)
 [Live Demo](https://abi-portofolio.vercel.app/)
 
 ---
