@@ -1,36 +1,76 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 💼 Akbarabi's Developer Portfolio
 
-## Getting Started
+Welcome to the repository of my personal developer portfolio! This project highlights my skills, creativity, and ongoing journey in web development. It's a platform where I showcase my featured projects and demonstrate my expertise in frontend and backend development.
 
-First, run the development server:
+## 🧑‍💻 About Me
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Hi, I’m **Muhammad Akbar Abi Santoso**, a passionate web developer currently studying at **SMK Telkom Malang**. My focus is on both frontend and backend development, with a love for solving real-world problems through code. This portfolio is a reflection of my growth as I learn new technologies and continually improve my skill set.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## 🌟 Features
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+This portfolio includes:
 
-## Learn More
+- **Project Showcase**: A collection of my key projects with descriptions and links to the live demos and repositories.
+- **Responsive Design**: Built with mobile-first principles to ensure it looks great on all devices.
+- **Clean UI/UX**: Simple yet effective user interface for easy navigation and exploration of my work.
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🛠️ Tech Stack
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+The portfolio is built using the following technologies:
 
-## Deploy on Vercel
+- **Frontend**: HTML, CSS, JavaScript, React
+- **Version Control**: Git, GitHub
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## 🚀 How to Use
+
+To view this portfolio locally on your machine:
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Akbarabi/Portofolio.git
+2. Navigate to the project directory:
+   ```bash
+   cd Portofolio
+3. Install the necessary dependencies:
+   ```bash
+   npm install
+4. Run the project locally:
+  ```bash
+  npm start
+  ```
+  The portfolio should now be running locally, and you can view it in your browser at http://localhost:3000.
+
+## 📈 What’s Next?
+I’m constantly updating and improving this portfolio. Here’s what’s on the roadmap:
+
+- **Visual Enhancements:** Upgrading the UI with modern design trends and tools like TailwindCSS.
+- **Interactive Elements:** Adding engaging animations and transitions to create a more immersive experience.
+- **Responsive:** Further optimizations to ensure flawless performance across all devices and screen sizes.
+
+## 📊 Lighthouse Score
+Here’s the current Lighthouse score for the portfolio:
+
+- **Performance: 78**
+- **Accessibility: 85**
+- **Best Practices: 93**
+- **SEO: 92**
+
+These scores highlight the portfolio's high standards in performance, accessibility, and overall web practices. Continuous improvements will focus on maintaining and enhancing these scores.
+
+## 🌍 Connect with Me
+Feel free to explore the portfolio and reach out if you want to collaborate, discuss a project, or just connect:
+
+- [LinkedIn](https://www.linkedin.com/in/akbar-abi-4724a92a9/)
+- [Github](https://github.com/Akbarabi)
+- [Email](mailto:muhammadakbar.abisantoso07@gmail.com)
+
+## 🤝 Contributions
+If you find areas that can be improved or have ideas for new features, feel free to contribute! Fork the repository, make changes, and submit a pull request. I welcome any suggestions and enhancements.
+
+Thank you for visiting my portfolio repository! I hope it gives you a good overview of my skills and projects. Feedback is always welcome!
