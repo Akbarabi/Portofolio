@@ -1,4 +1,5 @@
-[Live Demo](./assets/Preview.png)(https://abi-portofolio.vercel.app/)
+(./assets/Preview.png)
+[Live Demo](https://abi-portofolio.vercel.app/)
 
 ---
 
