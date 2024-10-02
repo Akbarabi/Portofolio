@@ -64,7 +64,7 @@ const Repos = React.memo(() => {
   }
 
   return (
-    <Row className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 text-white gap-5 m-10">
+    <Row className="grid grid-cols-3 text-white gap-5 m-10">
       {memoizedRepos}
     </Row>
   );

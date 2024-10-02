@@ -8,7 +8,7 @@ import AboutCard from "./components/AboutCard";
 
 const About = () => {
   return (
-    <div className="mx-28">
+    <div className="mx-4 sm:mx-8 md:mx-16 lg:mx-28">
       <motion.div
         initial={{
           opacity: 0,
@@ -27,12 +27,12 @@ const About = () => {
           amount: 1,
         }}
       >
-        <div className="h-screen flex items-center">
+        <div className="min-h-screen flex items-center">
           <AboutCard />
         </div>
       </motion.div>
 
-      <div className="h-screen flex flex-col justify-center">
+      <div className="min-h-screen flex flex-col justify-center items-center">
         <motion.div
           initial={{
             opacity: 0,
@@ -51,7 +51,7 @@ const About = () => {
             amount: 0.5,
           }}
         >
-          <h1 className="text-[#EBD3F8] text-4xl font-semibold text-center">
+          <h1 className="text-[#EBD3F8] text-2xl sm:text-3xl md:text-4xl font-semibold text-center">
             Languages and Tools
           </h1>
           <Techstack />

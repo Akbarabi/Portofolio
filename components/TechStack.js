@@ -35,13 +35,13 @@ const icons = [
 
 function Techstack() {
   return (
-      <Row className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-5 p-10">
-        {icons.map((icon, index) => (
-          <Col key={index} className="justify-center box text-center">
-            <icon.icon className="text-white" size={85} />
-          </Col>
-        ))}
-      </Row>
+    <Row className="grid sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-5 p-4 py-8">
+      {icons.map((icon, index) => (
+        <Col key={index} className="justify-center box text-center">
+          <icon.icon className="text-white" size={80}/>
+        </Col>
+      ))}
+    </Row>
   );
 }
 

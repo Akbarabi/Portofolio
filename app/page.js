@@ -33,7 +33,7 @@ const Page = () => {
           amount: 1,
         }}
       >
-        <div className="items-center flex h-[92vh] home-sm mx-28">
+        <div className="items-center flex h-[100vh] home-sm mx-28">
           <div className="flex-col justify-start text-white mt-10">
             <h1 className="text-4xl font-bold">
               Hi, There! <span className="waving-hand">👋</span>
@@ -41,9 +41,7 @@ const Page = () => {
             <h1 className="text-4xl font-bold pt-5">
               I`m Muhammad Akbar Abi Santoso
             </h1>
-            <div className="text-4xl font-bold pt-10 text-[#EBD3F8] ">
-              <Typing />
-            </div>
+            <Typing />
           </div>
           <Image
             src="home-main.svg"
