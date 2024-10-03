@@ -8,16 +8,22 @@ import "@/app/globals.css";
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
+  const [isMobile, setIsMobile] = useState(true);
   const router = useRouter();
 
   useEffect(() => {
+    const handleResize = () => setIsMobile(window.innerWidth < 768);
     const handleScroll = () => {
       setIsScrolled(window.scrollY > 0);
       if (isOpen) setIsOpen(false);
     };
 
+    handleResize();
+    window.addEventListener("resize", handleResize);
     window.addEventListener("scroll", handleScroll, { passive: true });
+
     return () => {
+      window.removeEventListener("resize", handleResize);
       window.removeEventListener("scroll", handleScroll);
     };
   }, [isOpen]);
@@ -28,7 +34,7 @@ const Navbar = () => {
 
   const handleLinkClick = (href) => {
     setIsOpen(false);
-    router.push(href, undefined, { replace: true });
+    router.push(href);
   };
 
   const menuItems = ['Home', 'About', 'Github', 'Contact'];
@@ -38,19 +44,21 @@ const Navbar = () => {
       <Link href="/">
         <h1 className="text-3xl font-bold">A.Abi</h1>
       </Link>
-      <div className="md:hidden">
-        <motion.button
-          onClick={() => setIsOpen(!isOpen)}
-          className="focus:outline-none"
-          whileTap={{ scale: 0.97 }}
-        >
-          <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
-          </svg>
-        </motion.button>
-      </div>
+      {isMobile && (
+        <div className="md:hidden">
+          <motion.button
+            onClick={() => setIsOpen(!isOpen)}
+            className="focus:outline-none"
+            whileTap={{ scale: 0.97 }}
+          >
+            <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
+            </svg>
+          </motion.button>
+        </div>
+      )}
       <AnimatePresence>
-        {(isOpen || window.innerWidth >= 768) && (
+        {(!isMobile || isOpen) && (
           <motion.ul
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}

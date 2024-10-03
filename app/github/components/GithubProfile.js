@@ -91,7 +91,7 @@ const GithubProfile = () => {
             <p className="text-base sm:text-lg mb-4">
               {user.bio || "No bio available"}
             </p>
-            <div className="flex justify-center">
+            <div className="flex sm:justify-center lg:justify-start">
             <button
               onClick={() => {
                 window.open(user.html_url, "_blank");
