@@ -64,10 +64,10 @@ I’m constantly updating and improving this portfolio. Here’s what’s on the
 ## 📊 Lighthouse Score
 Here’s the current Lighthouse score for the portfolio:
 
-- **Performance: 78**
-- **Accessibility: 85**
-- **Best Practices: 93**
-- **SEO: 92**
+- **Performance: 94**
+- **Accessibility: 90**
+- **Best Practices: 100**
+- **SEO: 82**
 
 These scores highlight the portfolio's high standards in performance, accessibility, and overall web practices. Continuous improvements will focus on maintaining and enhancing these scores.
 
