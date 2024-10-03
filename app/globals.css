@@ -70,16 +70,12 @@
 .navbar {
   display: flex;
   justify-content: space-between;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  font-weight: bold;
   background: rgba(128, 0, 128, 0.21);
   backdrop-filter: blur(2px);
   -webkit-backdrop-filter: blur(2px);
-}
-
-.navbar-sm {
-  background: rgba(128, 0, 128, 0.21);
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(20px);
-  -webkit-backdrop-filter: blur(20px)
 }
 
 .navbar.scrolled {
@@ -90,9 +86,12 @@
 }
 
 .navbar-text:hover {
-  transform: scale(1.1);
-  font-weight: 500;
-  color: aqua;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  cursor: pointer;
+  font-weight: bold;
+  color: #EBD3F8;
+  transition: transform 0.3s ease-in-out;
 }
 
 ::-webkit-scrollbar {
@@ -115,12 +114,18 @@
     align-items: center;
     text-align: center;
     position: relative;
-    margin-top: 100px;
+    margin-top: 120px;
     height: 90vh;
   }
   .image-sm {
     right: 0;
     top: 0;
     margin-top: 20px;
+  }
+  .navbar-sm {
+    background: rgba(128, 0, 128, 0.21);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
   }
 }
