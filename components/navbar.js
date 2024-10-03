@@ -64,7 +64,7 @@ const Navbar = () => {
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -20 }}
             transition={{ duration: 0.3 }}
-            className="md:flex gap-4 absolute md:static navbar-sm md:bg-transparent top-full left-0 w-full md:w-auto p-4 md:p-0"
+            className="md:flex gap-4 absolute md:static sm:navbar-sm md:bg-transparent top-full left-0 w-full md:w-auto p-4 md:p-0"
           >
             {menuItems.map((item, index) => (
               <motion.li
