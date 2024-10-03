@@ -90,7 +90,7 @@
   line-height: 1.75rem;
   cursor: pointer;
   font-weight: bold;
-  color: #EBD3F8;
+  color: #ebd3f8;
   transition: transform 0.3s ease-in-out;
 }
 
@@ -114,7 +114,7 @@
     align-items: center;
     text-align: center;
     position: relative;
-    margin-top: 120px;
+    margin-top: 7rem;
     height: 90vh;
   }
   .image-sm {
@@ -124,7 +124,8 @@
   }
   .navbar-sm {
     background: rgba(128, 0, 128, 0.21);
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
     backdrop-filter: blur(20px);
     -webkit-backdrop-filter: blur(20px);
   }

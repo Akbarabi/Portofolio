@@ -27,7 +27,7 @@ const Particle = () => {
   return (
     init && (
       <Particles
-      className="absolute -z-[2]"
+      className="absolute -z-[10]"
         id="tsparticles"
         options={{
           zLayers: 5,
