@@ -68,6 +68,15 @@ Here’s the current Lighthouse score for the portfolio:
 - **Accessibility: 90**
 - **Best Practices: 100**
 - **SEO: 82**
+- **Performance**
+<p align="center">
+  <img src="https://github.com/Akbarabi/Portofolio/blob/main/public/assets/Performance.png" alt="performance">
+</p>
+
+- **Audits**
+<p align="center">
+  <img src="https://github.com/Akbarabi/Portofolio/blob/main/public/assets/Audits.png" alt="audits">
+</p>
 
 These scores highlight the portfolio's high standards in performance, accessibility, and overall web practices. Continuous improvements will focus on maintaining and enhancing these scores.
 
