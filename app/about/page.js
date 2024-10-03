@@ -38,7 +38,7 @@ const About = () => {
             opacity: 0,
             y: 50,
           }}
-          whileInView={{
+          animate={{
             opacity: 1,
             y: 0,
             transition: {

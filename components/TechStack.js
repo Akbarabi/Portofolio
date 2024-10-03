@@ -38,7 +38,7 @@ function Techstack() {
     <Row className="grid sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-5 p-4 py-8">
       {icons.map((icon, index) => (
         <Col key={index} className="justify-center box text-center">
-          <icon.icon className="text-white" size={80}/>
+          <icon.icon className="text-white" size={80} smooth/>
         </Col>
       ))}
     </Row>

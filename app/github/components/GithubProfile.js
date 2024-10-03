@@ -47,7 +47,7 @@ const GithubProfile = () => {
   if (!user) {
     return (
       <div className="flex items-center justify-center h-screen">
-        <p className="text-xl">
+        <p className="text-xl text-white">
           Failed to load user data. Please try again later.
         </p>
       </div>

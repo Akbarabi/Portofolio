@@ -75,6 +75,13 @@
   -webkit-backdrop-filter: blur(2px);
 }
 
+.navbar-sm {
+  background: rgba(128, 0, 128, 0.21);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px)
+}
+
 .navbar.scrolled {
   background: rgba(128, 0, 128, 0.52);
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);

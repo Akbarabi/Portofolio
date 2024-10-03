@@ -34,7 +34,7 @@ const Page = () => {
         }}
       >
         <div className="items-center flex h-[100vh] home-sm mx-28">
-          <div className="flex-col justify-start text-white mt-10">
+          <div className="flex-col justify-start text-white">
             <h1 className="text-4xl font-bold">
               Hi, There! <span className="waving-hand">👋</span>
             </h1>
