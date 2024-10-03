@@ -91,7 +91,7 @@ const GithubProfile = () => {
             <p className="text-base sm:text-lg mb-4">
               {user.bio || "No bio available"}
             </p>
-            <div className="flex sm:justify-center lg:justify-start">
+            <div className="flex justify-center sm:justify-center lg:justify-start">
             <button
               onClick={() => {
                 window.open(user.html_url, "_blank");
@@ -99,14 +99,14 @@ const GithubProfile = () => {
               className="hover:scale-105 bg-[#800080] rounded-lg w-40 p-3 text-center transition duration-300 flex flex-row justify-center items-center gap-2"
             >
               <LuGithub />
-              <a
+              <p
                 href={user.html_url}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-white hover:text-stone-300 font-bold"
               >
                 View Profile
-              </a>
+              </p>
             </button>
             </div>
           </div>

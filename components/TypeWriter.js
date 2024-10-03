@@ -6,8 +6,8 @@ const Typing = () => {
     <TypeWriter
       options={{
         loop: true,
-        wrapperClassName: "text-4xl font-bold text-[#EBD3F8]",
-        cursorClassName: "text-4xl",
+        wrapperClassName: "text-4xl font-bold text-[#EBD3F8] mt-10",
+        cursorClassName: "text-4xl mt-10",
         
       }}
       onInit={(typewriter) => {

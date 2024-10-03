@@ -95,10 +95,6 @@
   color: aqua;
 }
 
-.hamburger-menu {
-  display: none;
-}
-
 ::-webkit-scrollbar {
   display: none;
 }

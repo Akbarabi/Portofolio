@@ -45,7 +45,7 @@ const Navbar = () => {
         <h1 className="text-3xl font-bold">A.Abi</h1>
       </Link>
       {isMobile && (
-        <div className="md:hidden">
+        <div className="md:hidden flex items-center">
           <motion.button
             onClick={() => setIsOpen(!isOpen)}
             className="focus:outline-none"
@@ -64,7 +64,7 @@ const Navbar = () => {
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -20 }}
             transition={{ duration: 0.3 }}
-            className="md:flex gap-4 absolute md:static navbar-md md:bg-transparent top-full left-0 w-full md:w-auto p-4 md:p-0"
+            className="md:flex gap-4 absolute md:static navbar-sm md:bg-transparent top-full left-0 w-full md:w-auto p-4 md:p-0"
           >
             {menuItems.map((item, index) => (
               <motion.li
