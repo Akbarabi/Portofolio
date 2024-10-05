@@ -14,12 +14,16 @@ const montserrat = Montserrat({ subsets: ["latin", "latin-ext"] });
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="en" className="hide-scrollbar">
+      <head>
+        <title>A.Abi Portofolio</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      </head>
       <body className={montserrat.className}>
         <Analytics />
         <SpeedInsights />
         <Navbar />
-        <main className="hide-scrollbar">{children}</main>
+        <main>{children}</main>
         <Footer />
         <Particle />
       </body>

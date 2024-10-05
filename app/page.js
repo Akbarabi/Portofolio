@@ -14,7 +14,11 @@ const Page = () => {
   return (
     <>
       <link rel="preconnect" href="https://fonts.googleapis.com" />
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true" />
+      <link
+        rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossOrigin="true"
+      />
       <motion.div
         initial={{
           opacity: 0,
@@ -38,7 +42,7 @@ const Page = () => {
             <h1 className="text-4xl font-bold">
               Hi, There! <span className="waving-hand">👋</span>
             </h1>
-            <h1 className="text-4xl font-bold pt-5">
+            <h1 className="text-4xl font-bold sm:py-5 py-5">
               I`m Muhammad Akbar Abi Santoso
             </h1>
             <Typing />

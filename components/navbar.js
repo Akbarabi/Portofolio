@@ -60,6 +60,7 @@ const Navbar = () => {
             onClick={() => setIsOpen(!isOpen)}
             className="focus:outline-none"
             whileTap={{ scale: 0.97 }}
+            aria-label="Toggle Menu Burger"
           >
             <svg
               className="w-6 h-6"
@@ -86,7 +87,7 @@ const Navbar = () => {
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -20 }}
             transition={{ duration: 0.3 }}
-            className="md:flex gap-4 absolute md:static navbar-sm md:bg-transparent top-full left-0 w-full md:w-auto p-4 md:p-0"
+            className="flex flex-col justify-center items-start md:flex gap-4 absolute md:static navbar-sm md:bg-transparent top-full left-0 w-full md:w-auto p-4 md:p-0 lg:flex-row" 
           >
             {menuItems.map((item, index) => (
               <motion.li
@@ -104,7 +105,7 @@ const Navbar = () => {
                     handleLinkClick(item.href);
                   }}
                 >
-                  <div className="flex items-center">
+                  <div className="flex items-center navbar-text">
                     {item.icon}
                     <span className="ml-2">{item.label}</span>
                   </div>

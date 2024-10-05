@@ -94,11 +94,20 @@
   transition: transform 0.3s ease-in-out;
 }
 
-::-webkit-scrollbar {
+.footer {
+  background: rgba(128, 0, 128, 0.52);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  transition: transform 0.3s ease-in-out;
+}
+
+.hide-scrollbar::-webkit-scrollbar {
   display: none;
 }
 
 .hide-scrollbar {
+  scrollbar-width: none;
   overflow-y: scroll;
   overflow-x: hidden;
   -ms-overflow-style: none;
@@ -114,7 +123,7 @@
     align-items: center;
     text-align: center;
     position: relative;
-    margin-top: 7rem;
+    margin-top: 5rem;
     height: 90vh;
   }
   .image-sm {

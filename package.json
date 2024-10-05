@@ -26,6 +26,7 @@
     "typewriter-effect": "^2.21.0"
   },
   "devDependencies": {
+    "daisyui": "^4.12.12",
     "eslint": "^8",
     "eslint-config-next": "14.2.7",
     "postcss": "^8",
