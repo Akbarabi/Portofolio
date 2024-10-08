@@ -10,6 +10,11 @@ const nextConfig = {
       },
     ],
   },
+  env: {
+    SERVICE_KEY: process.env.SERVICE_KEY,
+    TEMPLATE_ID: process.env.TEMPLATE_ID,
+    PUBLIC_KEY: process.env.PUBLIC_KEY,
+  }
 };
 
 export default nextConfig;

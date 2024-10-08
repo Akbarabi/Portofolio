@@ -86,8 +86,6 @@
 }
 
 .navbar-text:hover {
-  font-size: 1.125rem;
-  line-height: 1.75rem;
   cursor: pointer;
   font-weight: bold;
   color: #ebd3f8;
@@ -95,7 +93,7 @@
 }
 
 .footer {
-  background: rgba(128, 0, 128, 0.52);
+  background: rgba(128, 0, 128, 0.21);
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
@@ -123,8 +121,9 @@
     align-items: center;
     text-align: center;
     position: relative;
-    margin-top: 5rem;
-    height: 90vh;
+    padding-top: 5rem;
+    margin-bottom: 3rem;
+    height: 100vh;
   }
   .image-sm {
     right: 0;
