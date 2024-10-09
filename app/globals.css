@@ -76,6 +76,7 @@
   background: rgba(128, 0, 128, 0.21);
   backdrop-filter: blur(2px);
   -webkit-backdrop-filter: blur(2px);
+  transition: all 0.3s ease-in-out;
 }
 
 .navbar.scrolled {
@@ -131,7 +132,7 @@
     margin-top: 20px;
   }
   .navbar-sm {
-    background: rgba(128, 0, 128, 0.21);
+    background: #2E0854;
     border-bottom-left-radius: 16px;
     border-bottom-right-radius: 16px;
     backdrop-filter: blur(20px);

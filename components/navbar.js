@@ -46,7 +46,7 @@ const Navbar = () => {
 
   return (
     <nav
-      className={`flex fixed justify-between items-center w-full py-4 px-4 text-white navbar z-10 hide-scrollbar ${
+      className={`flex fixed justify-between items-center w-full py-4 px-4 text-white navbar z-10${
         isScrolled ? "scrolled" : ""
       }`}
     >
@@ -87,7 +87,7 @@ const Navbar = () => {
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -20 }}
             transition={{ duration: 0.3 }}
-            className="flex flex-col justify-center items-start md:flex gap-4 absolute md:static navbar-sm md:bg-transparent top-full left-0 w-full md:w-auto p-4 md:p-0 lg:flex-row hide-scrollbar" 
+            className="flex flex-col justify-center items-start md:flex gap-4 absolute md:static navbar-sm md:bg-transparent top-full left-0 w-full md:w-auto p-4 md:p-0 lg:flex-row" 
           >
             {menuItems.map((item, index) => (
               <motion.li

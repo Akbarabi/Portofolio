@@ -49,7 +49,6 @@ const Page = () => {
       setFormData({ name: "", email: "", description: "" });
     } catch (error) {
       toast.error("Error sending email");
-      console.error("Error sending email:", error);
     } finally {
       setisSubmitting(false);
     }
@@ -73,17 +72,17 @@ const Page = () => {
         once: false,
         amount: 1,
       }}
-      className="flex items-center justify-center h-screen"
+      className="flex items-center justify-center min-h-screen py-10 px-4 sm:px-6 lg:px-8"
     >
-      <div className="flex mx-28 items-center justify-start mt-20">
-        <div className="w-[70vh] max-w-md p-8 space-y-6 bg-white border border-gray-200 rounded-lg shadow-md">
-          <h1 className="text-3xl font-bold text-center text-black">
+      <div className="w-full max-w-md space-y-8 mt-10">
+        <div className="bg-white border border-gray-200 rounded-lg shadow-md p-6 sm:p-8">
+          <h1 className="text-2xl sm:text-3xl font-bold text-center text-black mb-6">
             Email me
           </h1>
           <form className="space-y-4" onSubmit={handleSubmit}>
             <div>
               <label className="block text-sm font-medium text-gray-700">
-                Email
+                Name
               </label>
               <input
                 name="name"
@@ -101,7 +100,7 @@ const Page = () => {
               </label>
               <input
                 name="email"
-                type="text"
+                type="email"
                 placeholder="email@example.com"
                 value={formData.email}
                 onChange={handleChange}
@@ -109,22 +108,19 @@ const Page = () => {
                 className="w-full px-3 py-2 mt-1 bg-white border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 text-black"
               />
             </div>
-
             <div>
               <label className="block text-sm font-medium text-gray-700">
                 Description
               </label>
               <textarea
                 name="description"
-                type="text"
                 placeholder="Enter your description"
                 value={formData.description}
                 onChange={handleChange}
                 required
-                className="flex w-full px-3 py-2 mt-1 bg-white border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 h-[20vh] text-black"
+                className="w-full px-3 py-2 mt-1 bg-white border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 h-24 sm:h-32 text-black"
               />
             </div>
-
             <div>
               <button
                 type="submit"
@@ -136,11 +132,11 @@ const Page = () => {
               <Toaster />
             </div>
           </form>
-          <div>
-            <h3 className="text-xl text-black font-semibold mb-2">
+          <div className="mt-6">
+            <h3 className="text-lg sm:text-xl text-black font-semibold mb-2">
               Temukan Saya Online
             </h3>
-            <div className="flex space-x-4 items-center">
+            <div className="flex space-x-4 items-center justify-center sm:justify-start">
               <a
                 href="https://www.linkedin.com/in/akbar-abi-4724a92a9/"
                 target="_blank"
@@ -150,7 +146,7 @@ const Page = () => {
                 <FaLinkedin size={24} aria-label="LinkedIn Profile" />
               </a>
               <a
-                href="https://github.com/akbarabi"
+                href="https://github.com/akbar abi"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-black hover:text-blue-600 transition-colors"
