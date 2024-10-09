@@ -31,8 +31,6 @@ const Page = () => {
         return;
       }
 
-      console.log(process.env.SERVICE_KEY, process.env.TEMPLATE_ID, process.env.PUBLIC_KEY);
-
       await emailjs.send(
         process.env.SERVICE_KEY,
         process.env.TEMPLATE_ID,
@@ -74,7 +72,7 @@ const Page = () => {
       }}
       className="flex items-center justify-center min-h-screen py-10 px-4 sm:px-6 lg:px-8"
     >
-      <div className="w-full max-w-md space-y-8 mt-10">
+      <div className="w-full max-w-md space-y-8 mt-12">
         <div className="bg-white border border-gray-200 rounded-lg shadow-md p-6 sm:p-8">
           <h1 className="text-2xl sm:text-3xl font-bold text-center text-black mb-6">
             Email me
@@ -91,6 +89,7 @@ const Page = () => {
                 placeholder="Enter your name"
                 value={formData.name}
                 onChange={handleChange}
+                autoComplete="name"
                 required
                 className="w-full px-3 py-2 mt-1 bg-white border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 text-black"
               />

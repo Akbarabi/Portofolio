@@ -5,6 +5,7 @@ import React, { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import { Spinner } from "react-bootstrap";
 import { LuGithub } from "react-icons/lu";
+import toast, { Toaster } from "react-hot-toast";
 
 const API_URL = "https://api.github.com/users/Akbarabi";
 
