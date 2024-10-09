@@ -104,6 +104,7 @@ const Page = () => {
                 placeholder="email@example.com"
                 value={formData.email}
                 onChange={handleChange}
+                autoComplete="email"
                 required
                 className="w-full px-3 py-2 mt-1 bg-white border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 text-black"
               />
