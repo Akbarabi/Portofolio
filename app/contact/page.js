@@ -81,11 +81,12 @@ const Page = () => {
           </h1>
           <form className="space-y-4" onSubmit={handleSubmit}>
             <div>
-              <label className="block text-sm font-medium text-gray-700">
+              <label className="block text-sm font-medium text-gray-700" htmlFor="name">
                 Name
               </label>
               <input
                 name="name"
+                id="name"
                 type="text"
                 placeholder="Enter your name"
                 value={formData.name}
@@ -95,10 +96,11 @@ const Page = () => {
               />
             </div>
             <div>
-              <label className="block text-sm font-medium text-gray-700">
+              <label className="block text-sm font-medium text-gray-700" htmlFor="email">
                 Email
               </label>
               <input
+                id="email"
                 name="email"
                 type="email"
                 placeholder="email@example.com"
@@ -110,10 +112,11 @@ const Page = () => {
               />
             </div>
             <div>
-              <label className="block text-sm font-medium text-gray-700">
+              <label className="block text-sm font-medium text-gray-700" htmlFor="description">
                 Description
               </label>
               <textarea
+                id="description"
                 name="description"
                 placeholder="Enter your description"
                 value={formData.description}
