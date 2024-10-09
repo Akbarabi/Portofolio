@@ -49,17 +49,17 @@ To view this portfolio locally on your machine:
    ```bash
    npm install
 4. Run the project locally:
-  ```bash
-  npm start
-  ```
+   ```bash
+   npm start
+   ```
   The portfolio should now be running locally, and you can view it in your browser at http://localhost:3000.
 
 ## 📈 What’s Next?
 I’m constantly updating and improving this portfolio. Here’s what’s on the roadmap:
 
-- **Visual Enhancements:** Upgrading the UI with modern design trends and tools like TailwindCSS.
-- **Interactive Elements:** Adding engaging animations and transitions to create a more immersive experience.
-- **Responsive:** Further optimizations to ensure flawless performance across all devices and screen sizes.
+- ~~**Visual Enhancements:**~~ Upgrading the UI with modern design trends and tools like TailwindCSS.
+- ~~**Interactive Elements:**~~ Adding engaging animations and transitions to create a more immersive experience.
+- ~~**Responsive:**~~ Further optimizations to ensure flawless performance across all devices and screen sizes.
 
 ## 📊 Lighthouse Score
 Here’s the current Lighthouse score for the portfolio:
