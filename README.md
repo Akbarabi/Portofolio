@@ -8,7 +8,7 @@
 
 # 💼 Akbarabi's Developer Portfolio
 
-Welcome to the repository of my personal developer portfolio! This project highlights my skills, creativity, and ongoing journey in web development. It's a platform where I showcase my featured projects and demonstrate my expertise in frontend and backend development.
+Welcome to the repository of my personal developer portfolio! This project highlights my skills, creativity, and ongoing journey in web development. It's a platform where I showcase my featured projects and demonstrate my expertise in frontend development.
 
 ## 🧑‍💻 About Me
 
